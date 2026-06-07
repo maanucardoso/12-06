@@ -1,0 +1,222 @@
+body{
+    margin:0;
+    background:black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+#scene{
+    position:relative;
+    width:800px;
+    height:400px;
+}
+
+#tapText{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%, -50%);
+    padding:20px 40px;
+    font-size:24px;
+    border:none;
+    border-radius:30px;
+    cursor:pointer;
+
+    background:#ff6a00;
+    color:white;
+}
+
+#stickman{
+    position:absolute;
+    left:100px;
+    top:100px;
+    color:white;
+}
+
+#stickman svg{
+    stroke:white;
+    fill:none;
+    stroke-width:4;
+}
+
+#ball{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    background:#ff6a00;
+    position:absolute;
+    left:150px;
+    top:140px;
+}
+#message{
+    display:none;
+    position:fixed;
+    inset:0;
+
+    background:black;
+
+    color:white;
+
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+    padding:30px;
+}
+
+#message h1{
+    font-size:60px;
+    color:#ff6a00;
+    margin-bottom:25px;
+}
+#message p{
+    font-size:22px;
+    max-width:600px;
+}
+
+#nextBtn{
+    margin-top:40px;
+
+    background:none;
+    border:none;
+
+    color:#ff6a00;
+
+    font-size:55px;
+    cursor:pointer;
+}
+#jorgePage{
+    display:none;
+
+    position:fixed;
+    inset:0;
+
+    background:black;
+    color:white;
+
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+}
+
+#jorgePage h1{
+    color:#ff6a00;
+    font-size:50px;
+}
+#albumCover{
+    width:250px;
+    border-radius:15px;
+    cursor:pointer;
+
+    transition:0.3s;
+}
+
+#albumCover:active{
+    transform:scale(0.95);
+}
+
+#musicText{
+    margin-top:20px;
+    color:white;
+    font-size:20px;
+}
+#popup{
+    display:none;
+
+    position:fixed;
+    top:50%;
+    left:50%;
+
+    transform:translate(-50%, -50%);
+
+    width:80%;
+    max-width:500px;
+
+    background:#111;
+    color:white;
+
+    padding:30px;
+    border-radius:20px;
+
+    text-align:center;
+
+    border:2px solid #ff6a00;
+
+    box-shadow:0 0 30px rgba(255,106,0,0.4);
+}
+
+#popup p{
+    font-size:20px;
+    line-height:1.6;
+}
+
+#fecharPopup{
+    margin-top:20px;
+
+    background:#ff6a00;
+    color:white;
+
+    border:none;
+    padding:12px 25px;
+
+    border-radius:12px;
+
+    cursor:pointer;
+}
+body {
+    overflow-y: auto;
+}
+
+#message{
+    display:none;
+    position:fixed;
+    inset:0;
+
+    background:black;
+    color:white;
+
+    padding:30px;
+
+    overflow-y:auto;
+    box-sizing:border-box;
+
+    text-align:center;
+}
+
+#message h1{
+    color:#ff6a00;
+    font-size:50px;
+    margin-bottom:30px;
+}
+
+#message p{
+    max-width:700px;
+    margin:0 auto;
+
+    font-size:22px;
+    line-height:1.8;
+
+    text-align:center;
+}
+@media (max-width: 768px){
+
+    #message{
+        padding:25px;
+    }
+
+    #message h1{
+        font-size:36px;
+    }
+
+    #message p{
+        font-size:18px;
+        line-height:1.8;
+        max-width:100%;
+    }
+
+}
