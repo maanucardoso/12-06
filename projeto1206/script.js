@@ -100,16 +100,6 @@ const musicas = [
     frase:"tu me faz um benzão. sério. por mim eu passava todos os dias contigo sem enjoar nem um tico."
 },
 
-
-{
-    nome:"Menina Mulher da Pele Preta",
-    capa:"imagens/pelepreta.jpg.jpeg",
-    audio:"musicas/pelepreta.mp3",
-    frase:"teus olhos são um absurdo. e teu sorriso nem se fala. Mas o que mais me prende é teu jeitinho e a pessoa incrível que tu é."
-},
-
-
-
 {
     nome:"Que Maravilha",
     capa:"imagens/quemaravilha.jpg.jpeg",
